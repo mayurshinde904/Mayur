@@ -90,7 +90,7 @@
                 	
 			  
 			  <!-- Draw features-->
-			  <div id="map" class="map" height=350px></div>
+			  <div id="map" class="map" height="350px"></div>
     <form class="form-inline">
       <label>Geometry type &nbsp;</label>
 	  <select id="units">
@@ -143,7 +143,9 @@
 	
 	
 	
-     
+      var raster = new ol.layer.Tile({
+        source: new ol.source.OSM()
+      });
 
      
 
