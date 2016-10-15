@@ -14,6 +14,12 @@
 	<script src="http://cdn.polyfill.io/v2/polyfill.min.js?features=requestAnimationFrame,Element.prototype.classList,URL"></script>
     <script src="http://openlayers.org/en/v3.18.2/build/ol.js"></script>
 	
+	
+	 
+	
+	
+	
+	
 	<!--my open layer-->
 	<link rel="stylesheet" href="http://openlayers.org/en/v3.18.2/css/ol.css" type="text/css">
 	 <script src="http://openlayers.org/en/v3.18.2/build/ol.js" type="text/javascript"></script>
@@ -93,6 +99,13 @@
 			  <div id="map" class="map" height=350px></div>
     <form class="form-inline">
       <label>Geometry type &nbsp;</label>
+	  <select id="units">
+      <option value="degrees">degrees</option>
+      <option value="imperial">imperial inch</option>
+      <option value="us">us inch</option>
+      <option value="nautical">nautical mile</option>
+      <option value="metric" selected>metric</option>
+    </select>
       <select id="type">
         <option value="Point">Point</option>
         <option value="LineString">LineString</option>
@@ -100,20 +113,47 @@
       </select>
     </form>
     <script>
+	
+	
+
+     var scaleLineControl = new ol.control.ScaleLine();
+
+      var map = new ol.Map({
+        controls: ol.control.defaults({
+          attributionOptions: /** @type {olx.control.AttributionOptions} */ ({
+            collapsible: false
+          })
+        }).extend([
+          scaleLineControl
+        ]),
+        layers: [
+          new ol.layer.Tile({
+            source: new ol.source.OSM()
+          })
+        ],
+        target: 'map',
+        view: new ol.View({
+          center: [0, 0],
+          zoom: 2
+        })
+      });
+
+      var unitsSelect = document.getElementById('units');
+      function onChange() {
+        scaleLineControl.setUnits(unitsSelect.value);
+      }
+      unitsSelect.addEventListener('change', onChange);
+      onChange();
+	
+	
+	
+	
+	
       var raster = new ol.layer.Tile({
         source: new ol.source.OSM()
       });
 
-      var map = new ol.Map({
-        layers: [raster],
-        target: 'map',
-        view: new ol.View({
-		
-          center: [-11000000, 4600000],
-          zoom: 4
-        })
-      });
-
+     
 
 	  
 	   var graticule = new ol.Graticule({
