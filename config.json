@@ -1,0 +1,395 @@
+{
+  "theme": {
+    "name": "FoldableTheme",
+    "styles": [
+      "default",
+      "black",
+      "blue",
+      "cyan",
+      "green",
+      "purple",
+      "red",
+      "yellow"
+    ],
+    "version": "2.2"
+  },
+  "portalUrl": "http://www.arcgis.com",
+  "appId": "4KIbaasEfS57ElyU",
+  "authorizedCrossOriginDomains": [
+    "gis.dot.ny.gov",
+    "aisnorge.kystverket.no",
+    "atlas.cyclomedia.com",
+    "maps-ver.lantmateriet.se",
+    "security.geobasis-bb.de",
+    "gis.cityofeagan.com",
+    "mapy.mesto-most.cz",
+    "77.237.151.19",
+    "supt000196.esri.com",
+    "supt000413.esri.com",
+    "www.flysask2.ca",
+    "gis.charttools.noaa.gov",
+    "centroid.cloudapp.net",
+    "csc-dmoore7d.esri.com",
+    "demographics5.arcgis.com",
+    "giswebdev.santeecooper.com",
+    "geodienste.sachsen.de",
+    "csslsystem-531.cybertech.com",
+    "gis.mwcog.org",
+    "gis.anchorqea.com",
+    "mcgis.mohavecounty.us",
+    "supt002003.esri.com:6443",
+    "urldefense.proofpoint.com",
+    "geocloud.blackbridge.com",
+    "tj.esri.com",
+    "annanew7.esri.com",
+    "gis1.meridenct.gov",
+    "supt002564.esri.com",
+    "sigel.aneel.gov.br",
+    "gis.tahoecons.ca.gov",
+    "ws3.ws.emapsite.com",
+    "kartta.hel.fi",
+    "maps.hannibalbpw.org",
+    "giswa.cityofnewarkde.us",
+    "maps.batonrougewater.com",
+    "kommisdd.dresden.de",
+    "wms.swisstopo.admin.ch:8543",
+    "shoumith.esri.com",
+    "csc-avalenski7d.esri.com",
+    "isyed.esri.com",
+    "it.innovateteam.com",
+    "geo.theweather.com.au",
+    "leanndrapc.esri.com",
+    "orthos.massgis.state.ma.us",
+    "www.cigalsace.org",
+    "kortforsyningen.kms.dk",
+    "gisportaltest.anteroresources.com",
+    "geo.theweather.com.au",
+    "zkhan.esri.com",
+    "ttmtest.dteenergy.com",
+    "cslws1.esrifrance.fr",
+    "52.9.9.239",
+    "52.8.185.130",
+    "imagery.slip.wa.gov.au",
+    "supportsrv.esrifrance.fr",
+    "discover.agrc.utah.gov",
+    "testiextranet.liikennevirasto.fi",
+    "sampleserver6.arcgisonline.com",
+    "deboer.esri.com",
+    "rashan2012.esri.com",
+    "gistst.dot.state.oh.us",
+    "wxs.ign.fr",
+    "www2.landgate.wa.gov.au",
+    "fbinter.stadt-berlin.de",
+    "atlas.gc.ca",
+    "columbo.nrlssc.navy.mil",
+    "wms.swisstopo.admin.ch",
+    "supt003250.esri.com",
+    "csc-wade7d2.esri.com:6443",
+    "csc-wade7d2.esri.com",
+    "arcgisweb01.roanokecountyva.gov",
+    "supt004280.esri.com:6443",
+    "supt004280.esri.com",
+    "supt004709.esri.com",
+    "supt004709.esri.com",
+    "security.geobasis-bb.de",
+    "skynet-genisys.esri.com",
+    "supt004615.esri.com",
+    "csslsystem-409.cybertech.com",
+    "training.geonode.wfp.org",
+    "dcota.esri.com",
+    "dcota.esri.com",
+    "csslsystem-240.cybertech.com:6443",
+    "ec2-52-54-34-103.compute-1.amazonaws.com",
+    "ec2-52-54-34-103.compute-1.amazonaws.com",
+    "gis.harnett.org",
+    "maps-beta.niagararegion.ca"
+  ],
+  "title": "Web_app_1/4",
+  "subtitle": "with Web AppBuilder for ArcGIS",
+  "keepAppState": true,
+  "logo": "images/app-logo.png",
+  "geometryService": "https://utility.arcgisonline.com/arcgis/rest/services/Geometry/GeometryServer",
+  "links": [],
+  "widgetOnScreen": {
+    "widgets": [
+      {
+        "uri": "themes/FoldableTheme/widgets/HeaderController/Widget",
+        "position": {
+          "left": 0,
+          "top": 0,
+          "right": 0,
+          "height": 40,
+          "relativeTo": "browser"
+        },
+        "version": "2.2",
+        "id": "themes_FoldableTheme_widgets_HeaderController_Widget_1",
+        "name": "HeaderController"
+      },
+      {
+        "uri": "widgets/Scalebar/Widget",
+        "position": {
+          "left": 7,
+          "bottom": 25,
+          "relativeTo": "map"
+        },
+        "version": "2.2",
+        "id": "widgets_Scalebar_Widget_2",
+        "name": "Scalebar"
+      },
+      {
+        "uri": "widgets/Search/Widget",
+        "position": {
+          "left": 55,
+          "top": 5,
+          "relativeTo": "map"
+        },
+        "version": "2.2",
+        "id": "widgets_Search_Widget_3",
+        "name": "Search"
+      },
+      {
+        "uri": "widgets/Coordinate/Widget",
+        "position": {
+          "left": 7,
+          "bottom": 5,
+          "relativeTo": "map"
+        },
+        "version": "2.2",
+        "id": "widgets_Coordinate_Widget_4",
+        "name": "Coordinate"
+      },
+      {
+        "position": {
+          "left": 55,
+          "top": 45,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 1,
+        "id": "_5",
+        "name": "AddData",
+        "version": "2.2",
+        "uri": "widgets/AddData/Widget",
+        "config": "configs/AddData/config_AddData.json"
+      },
+      {
+        "position": {
+          "left": 105,
+          "top": 45,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 1,
+        "id": "_6",
+        "name": "Edit",
+        "version": "2.2",
+        "featureActions": [
+          {
+            "name": "Edit",
+            "uri": "EditFeatureAction"
+          }
+        ],
+        "uri": "widgets/Edit/Widget",
+        "config": "configs/Edit/config_Edit.json"
+      },
+      {
+        "position": {
+          "left": 155,
+          "top": 45,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 1,
+        "id": "_7",
+        "name": "SmartEditor",
+        "version": "2.2",
+        "keepConfigAfterMapSwithched": false,
+        "uri": "widgets/SmartEditor/Widget",
+        "config": "configs/SmartEditor/config_SmartEditor.json"
+      },
+      {
+        "position": {
+          "left": 205,
+          "top": 45,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 1,
+        "id": "_8",
+        "name": "LayerList",
+        "label": "Layer List_2",
+        "version": "2.2",
+        "uri": "widgets/LayerList/Widget",
+        "config": "configs/LayerList/config_Layer List_2.json"
+      },
+      {
+        "position": {
+          "left": 255,
+          "top": 45,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 1,
+        "id": "_9"
+      },
+      {
+        "uri": "widgets/OverviewMap/Widget",
+        "position": {
+          "bottom": 0,
+          "right": 0,
+          "zIndex": 1,
+          "relativeTo": "map"
+        },
+        "version": "2.2",
+        "id": "widgets_OverviewMap_Widget_10",
+        "name": "OverviewMap"
+      },
+      {
+        "uri": "widgets/HomeButton/Widget",
+        "position": {
+          "left": 7,
+          "top": 75,
+          "relativeTo": "map"
+        },
+        "version": "2.2",
+        "id": "widgets_HomeButton_Widget_11",
+        "name": "HomeButton"
+      },
+      {
+        "uri": "widgets/MyLocation/Widget",
+        "position": {
+          "left": 7,
+          "top": 110,
+          "relativeTo": "map"
+        },
+        "version": "2.2",
+        "id": "widgets_MyLocation_Widget_12",
+        "name": "MyLocation"
+      },
+      {
+        "uri": "widgets/AttributeTable/Widget",
+        "position": {
+          "relativeTo": "browser"
+        },
+        "version": "2.2",
+        "id": "widgets_AttributeTable_Widget_13",
+        "name": "AttributeTable",
+        "featureActions": [
+          {
+            "name": "ShowRelatedRecords",
+            "uri": "actions/ShowRelatedRecordsFeatureAction"
+          },
+          {
+            "name": "ViewInTable",
+            "uri": "actions/ViewInAttributeTableFeatureAction"
+          }
+        ]
+      },
+      {
+        "uri": "widgets/Splash/Widget",
+        "visible": false,
+        "position": {
+          "relativeTo": "browser"
+        },
+        "version": "2.2",
+        "id": "widgets_Splash_Widget_14",
+        "name": "Splash"
+      },
+      {
+        "uri": "widgets/ZoomSlider/Widget",
+        "position": {
+          "top": 5,
+          "left": 7,
+          "relativeTo": "map"
+        },
+        "version": "2.2",
+        "id": "widgets_ZoomSlider_Widget_15",
+        "name": "ZoomSlider"
+      }
+    ],
+    "panel": {
+      "uri": "jimu/OnScreenWidgetPanel",
+      "position": {
+        "relativeTo": "map"
+      }
+    }
+  },
+  "map": {
+    "3D": false,
+    "2D": true,
+    "position": {
+      "left": 0,
+      "top": 40,
+      "right": 0,
+      "bottom": 0
+    },
+    "itemId": "d21adb4bfc6e4db3ae2737619049414e",
+    "mapOptions": {},
+    "id": "map",
+    "portalUrl": "http://www.arcgis.com"
+  },
+  "widgetPool": {
+    "panel": {
+      "uri": "themes/FoldableTheme/panels/FoldablePanel/Panel",
+      "position": {
+        "top": 5,
+        "right": 5,
+        "bottom": 5,
+        "zIndex": 5,
+        "relativeTo": "map"
+      }
+    },
+    "widgets": [
+      {
+        "uri": "widgets/Legend/Widget",
+        "version": "2.2",
+        "id": "widgets_Legend_Widget_16",
+        "name": "Legend",
+        "index": 0
+      },
+      {
+        "uri": "widgets/LayerList/Widget",
+        "version": "2.2",
+        "id": "widgets_LayerList_Widget_17",
+        "name": "LayerList",
+        "index": 1
+      }
+    ]
+  },
+  "mobileLayout": {
+    "widgetOnScreen": {
+      "widgets": {
+        "widgets/Scalebar/Widget": {
+          "position": {
+            "left": 7,
+            "bottom": 40
+          },
+          "version": "1.4"
+        },
+        "widgets/Coordinate/Widget": {
+          "position": {
+            "left": 7,
+            "bottom": 17
+          },
+          "version": "1.4"
+        }
+      }
+    }
+  },
+  "loadingPage": {
+    "backgroundColor": "#508dca",
+    "backgroundImage": {
+      "visible": false
+    },
+    "loadingGif": {
+      "visible": true,
+      "uri": "configs/loading/images/predefined_loading_1.gif",
+      "width": 58,
+      "height": 29
+    }
+  },
+  "wabVersion": "2.2",
+  "isTemplateApp": true,
+  "isWebTier": false,
+  "httpProxy": {
+    "useProxy": true,
+    "alwaysUseProxy": false,
+    "url": "",
+    "rules": []
+  }
+}
